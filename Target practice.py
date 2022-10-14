@@ -23,6 +23,22 @@ while True:
     if badger.pressed(badger2040.BUTTON_B):
         clr()
         break
+#SELECT TARGET REPETITION
+turnCounter = 10 #number of targets that must be hit before the game finishes
+badger.text("How many targets?", 10, 50, scale=1.0)
+
+while True:
+    if badger.pressed(badger2040.BUTTON_UP):
+        turnCounter = turnCounter + 5
+        badger.text(turnCounter, 50, 100, scale=0.70)
+        clr()
+    if badger.pressed(badger2040.BUTTON_DOWN):
+        turnCounter = turnCounter - 5
+        badger.text(turnCounter, 50, 100, scale=0.70)
+        clr()
+    if badger.pressed(badger2040.BUTTON_B):
+        clr()
+        break
 #-----------------------------------------------------------------
 #Font set
 badger.font("bitmap8")
@@ -232,7 +248,6 @@ def selectNumbers():
 
 #main
 badger.update_speed(2) #will help to clear display
-turnCounter = 10 #number of targets that must be hit before the game finishes
 turnCountConst = turnCounter
 startTime = time() #starts stopwatch
 while turnCounter > 1:
