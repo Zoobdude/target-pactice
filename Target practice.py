@@ -31,10 +31,12 @@ while True:
     if badger.pressed(badger2040.BUTTON_UP):
         turnCounter = turnCounter + 5
         badger.text(turnCounter, 50, 100, scale=0.70)
+        badger.update()
         clr()
     if badger.pressed(badger2040.BUTTON_DOWN):
         turnCounter = turnCounter - 5
         badger.text(turnCounter, 50, 100, scale=0.70)
+        badger.update()
         clr()
     if badger.pressed(badger2040.BUTTON_B):
         clr()
