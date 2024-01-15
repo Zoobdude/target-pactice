@@ -16,6 +16,8 @@ Target:
 ```
 
 You must line up the aim with the target as quickly as you can. Once you have sucsessfully done this for 10 targets, you have completed the game and your time will be shown.
+![image](https://github.com/Zoobdude/target-pactice/assets/96008479/9cdf9ee2-da5a-4329-a739-596928cd5b12)
+
 
 
 ### Todo
@@ -24,3 +26,4 @@ You must line up the aim with the target as quickly as you can. Once you have su
 * Different game modes. Rather than 
 * High score. Store the the lowest time in a file to be used as a high score.
 * Introduce the B button as a Fire Button
+* Currently the time ellapsed only updates when a button is pressed. This means it can be very outdated if no buttons are pushed for a while. A partial update could be used every second to keep the timer updated.
