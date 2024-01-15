@@ -1,5 +1,5 @@
 # Target Practice Game for [Badger 2040](https://shop.pimoroni.com/products/badger-2040?variant=39752959852627)
-The first program I wrote for the Badger, based on [a simple game a friend send me]()
+The first program I wrote for the Badger, based on [a simple game a friend send me](https://cdn.discordapp.com/attachments/710060436866859048/1024028696635518976/Target_Practice.py?ex=65aeb78a&is=659c428a&hm=15222a4f62a81bbab3cbbcae7e1c0247cf5d3154a3c2c153a424d1cde88d9b1e&)
 
 ## Aim of the game
 The aim is to move your sights over the top of the target using the A, C and UP, DOWN arrows:
